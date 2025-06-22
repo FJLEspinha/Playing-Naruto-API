@@ -1,0 +1,99 @@
+body {
+    text-align: center;
+    margin-inline-start: 80px;
+    margin-inline-end: 80px;
+    background-color: #ffe182;
+}
+
+h1 {
+    text-shadow: 2px 2px 4px #0c2fdf ;
+}
+
+#characters-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); 
+    gap: 16px; 
+    place-items: center;
+    justify-content: center;
+    align-content: center;    
+    margin-top: 15px;
+    margin-bottom: 25px;
+    margin-inline-start: 80px;
+    margin-inline-end: 80px;
+}
+
+.image-character {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+#image-character-info {
+    width: 350px;
+}
+
+
+#back, #next, #go-back {
+    width: 100px;
+    height: 30px;
+    border-radius: 18px;
+    margin-inline: 20px;
+    margin-bottom: 25px;
+    background-color: #0c2fdf;
+    color: 	#fbe407;
+    font-weight: bolder;
+}
+
+#personal-info {
+    background-color: 	#fbe407;
+}
+
+#jutsus {
+    background-color: #f2a30b;
+}
+
+#jutsus > h4 {
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: bolder;
+    font-size: xx-large;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#jutsu-list {
+    font-weight: bold;
+}
+
+#section-go-back {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;    
+}
+
+#go-back {
+    margin-top: 20px;
+}
+
+.card-character {
+    background-color: 	#f2a30b;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.card-character > #image-character-info {
+    width: 100%;
+    object-fit: fill ;
+    object-position: center;
+}
+
+.results-search {
+   display: grid;
+   grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+   gap: 10px;    
+}
