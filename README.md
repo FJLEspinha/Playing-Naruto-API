@@ -1,6 +1,6 @@
 # Información   
 Este proyecto está hecho sobre la [API](https://api-dattebayo.vercel.app/).  
-La idea es hacer un backend para la obtención de datos de la API y un forntend que accediese a esta.   
+La idea es hacer un backend para la obtención de datos de la API y un frontend que accediese a esta.   
 
 # Tecnologías   
 ## Backend   
